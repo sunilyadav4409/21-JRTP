@@ -15,4 +15,7 @@ public class ArticleService {
 		logger.debug("inside getArticles() method");
 		return Arrays.asList(new Article(100, "article"),new Article(200, "article2"));
 	}
+public void saveBookBasedOnPrice(){
+System.out.println("book is there");
+}
 }
